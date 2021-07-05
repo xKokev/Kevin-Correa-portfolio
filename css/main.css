@@ -1,0 +1,105 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.parralax{
+    background: #000715  no-repeat 50% 50%;
+    background-size: cover;
+    
+}
+#seccion1{ background-image: url('../img/1gradient.svg');
+width: 100%;
+height: 75%;
+
+}
+
+#seccion2{
+    background-color: #00CAA0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+ #seccion3 {
+        background-image: url('../img/1fondo.svg');
+        width: 100%;
+        height: 100%;
+        
+  }
+
+#seccion4{
+    background-image: url('../img/2fondo.svg');
+    width: 100%;
+    height: 75%;
+  }
+
+  .overx{
+    overflow-x: hidden !important;
+ }
+ #anim {
+   max-width: 95%;
+   max-height: 95%;
+   left: 20%;
+   display: flex;
+   justify-content: center;
+   bottom: 90%; 
+  position: absolute;
+  }
+  
+  @font-face {
+    font-family: 'horse-font';
+    src: url('../font/horse.ttf');
+  }
+  .horse-font{
+    font-family: 'horse-font';
+  }
+
+  /* Style the header with a grey background and some padding */
+
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 8px;
+}
+
+
+
+/* Change the background color on mouse-over */
+.hover-header:hover {
+  background-color: rgb(233, 24, 59);
+  color: rgb(253, 247, 247);
+  padding-top: 15px;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.iconos{
+  max-width: 24px;
+  min-width: 24px;
+}

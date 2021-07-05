@@ -1,0 +1,213 @@
+
+/*
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.parralax{
+    background: #000000  no-repeat 50% 50%;
+    background-size: cover;
+    
+}
+#seccion1{ background-image: url('../img/1gradient.svg');
+    height: 50vh;
+    width: 100vw;
+}
+
+#seccion2{
+    background-color: #00CAA0;
+ 
+   height: 100vh;
+   width: 100vw;
+}
+#seccion3{
+   background-image: url('../img/1fondo.svg');
+  
+    color: red;
+  
+  height: 100vh;
+  width: 100vw;
+
+}
+#seccion4{
+    background-image: url('../img/2fondo.svg');
+    color: #ee0c0c;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container1 {
+  justify-content: center;   
+    padding-left: 750px;
+    padding-top: 470px; 
+
+z-index: 999;
+padding-left: 0.5fr;
+}
+*{
+    overflow-x: hidden !important;
+ }
+ .lot-style{
+    overflow-y: hidden !important;
+    padding-left: 1fr;
+    padding-top: .5fr; 
+    width: 500px;
+    height: 900px;
+ }
+ */
+--------------------------------
+
+ 
+/*
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.parralax{
+    background: #000000  no-repeat 50% 50%;
+    background-size: cover;
+    
+}
+#seccion1{ background-image: url('../img/1gradient.svg');
+    height: 50vh;
+    width: 100vw;
+}
+
+#seccion2{
+    background-color: #00CAA0;
+ 
+   height: 100vh;
+   width: 100vw;
+}
+#seccion3{
+   background-image: url('../img/1fondo.svg');
+  
+    color: red;
+  
+  height: 100vh;
+  width: 100vw;
+
+}
+#seccion4{
+    background-image: url('../img/2fondo.svg');
+    color: #ee0c0c;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container1 {
+  justify-content: center;   
+    padding-left: 750px;
+    padding-top: 470px; 
+
+z-index: 999;
+padding-left: 0.5fr;
+}
+*{
+    overflow-x: hidden !important;
+ }
+ .lot-style{
+    overflow-y: hidden !important;
+    padding-left: 1fr;
+    padding-top: .5fr; 
+    width: 500px;
+    height: 900px;
+ }
+ */
+
+----------------------------------
+@media screen and (max-width: 1280px) {
+    body{
+        background-color: rgb(121, 160, 48);
+    }
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-color: rgb(255, 0, 157);
+    }
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: rgb(255, 0, 157);
+        transform: scale(.67);
+    }
+}
+@media screen and (max-width: 480px) {
+    body{
+        background-color: aqua;
+    }
+}
+@media screen and (max-width: 360px) {
+    body{
+        background-color: aqua;
+    }
+}
+@media screen and (max-width: 272px) {
+    body{
+        background-color: aqua;
+    }
+}
+----------------------
+@media screen and (max-width: 1500px) {
+    body{
+        background-color: rgb(255, 0, 157);
+    }
+}
+  @media screen and (max-width: 1200px) {
+    body{
+        background-color: rgb(255, 0, 157);
+    }
+}
+  @media screen and (max-width: 800px) {
+    body{
+        background-color: rgb(255, 0, 157);
+    }
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: rgb(255, 0, 157);
+        transform: scale(.67);
+    }
+}
+@media screen and (max-width: 480px) {
+   
+}
+  @media screen and (max-width: 360px) {
+    #anim {
+        max-width: 200px;
+        max-height: 200px;
+        padding-left:80px;
+        padding-top: 120px; 
+       
+       }
+       .overx{
+        overflow-x: hidden !important;
+     }
+}
+--------------
+ #anim {
+    display: flex;
+    justify-content: center;
+  height: 100%;
+  width: 100%;
+    bottom: 91%; 
+  position: absolute;
+  }

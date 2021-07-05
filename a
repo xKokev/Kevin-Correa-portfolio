@@ -1,0 +1,23 @@
+
+
+    <div class="main-container"></div>
+
+
+body{padding: 0; margin: 0;}
+
+    .main-container{
+        background-color: rgb(247, 199, 209);
+        width: 100vw;
+        height: 50vh;
+    }
+    .second-container{
+        background-color: rgb(47, 197, 139);
+        width: 100vw;
+        height: 100vh;
+    }
+       <br /><lottie-player
+          id="firstLottie"
+          src="https://assets2.lottiefiles.com/packages/lf20_xhroehke.json"
+          style="width: 600px; height: 600px"
+          >"></lottie-player
+        >
