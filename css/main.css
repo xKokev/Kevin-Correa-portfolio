@@ -47,7 +47,12 @@ height: 75%;
    bottom: 92%; 
    position: absolute;
   }
-  
+  .animation{
+    max-width: 95%;
+    max-height: 95%;
+    right: 20%;
+    bottom: 95%; 
+    position: absolute;}
   @font-face {
     font-family: 'horse-font';
     src: url('../font/horse.ttf');
