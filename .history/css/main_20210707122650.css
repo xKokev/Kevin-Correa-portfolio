@@ -43,8 +43,10 @@ height: 75%;
  #anim {
    max-width: 95%;
    max-height: 95%;
-   right: 20%;
-   bottom: 92%; 
+   right: 30%;
+   display: flex;
+   justify-content: center;
+   bottom: 95%; 
    position: absolute;
   }
   
