@@ -112,7 +112,7 @@ height: 75%;
   font-weight: 100;
   color: rgb(233, 24, 59);
   padding-left: 10%;
-  padding-top: 10%;
+  padding-top: 20%;
 
 }
 .wordCarousel div {
@@ -126,7 +126,7 @@ height: 75%;
 }
 .wordCarousel div li {
   color: rgb(233, 24, 59);
-  font-weight: 700;
+  font-weight: 70%;
   padding: 0 10px;
   height: 45px;
   margin-bottom: 45px;
