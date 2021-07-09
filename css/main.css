@@ -21,7 +21,7 @@ height: 75%;
 #seccion2{
     background-color: #00CAA0;
     width: 100%;
-    height: 150%;
+    height: 100%;
     position: relative;
 }
  #seccion3 {
@@ -436,23 +436,23 @@ h3{
   align-items: center;
 }
 .card1{
-  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvdIMVlW3Mn8TmkGmtulq2taIDoUIJvr_lt87EWhgdCY5diNhH0Q);
+  background-image: url(htypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvdIMVlW3Mn8TmkGmtulq2taIDoUIJvr_lt87EWhgdCY5diNhH0Q);
   
 }
 .card2{
-   background-image: url(http://www.festabimbianimazione.it/media/k2/galleries/136/Colori%20Fluo%20festa%20Arezzo%207.JPG);
+   background-image: url(htmbianimazione.it/media/k2/galleries/136/Colori%20Fluo%20festa%20Arezzo%207.JPG);
 }
 .card3{
-   background-image: url(http://www.romatoday.it/~media/horizontal-hi/26065597680895/fluo-party-2-2.jpg);
+   background-image: url(htromatoday.it/~media/horizontal-hi/26065597680895/fluo-party-2-2.jpg);
 }
 .card4{
-   background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSiLXTcanAKRZhMo-5Ga9pzsXIgjWcSbCdz3xFhMVI1PDZSRgQgUQ);
+   background-image: url(htncrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSiLXTcanAKRZhMo-5Ga9pzsXIgjWcSbCdz3xFhMVI1PDZSRgQgUQ);
 }
 .card5{
-   background-image: url(https://www.gadgetsvirali.com/wp-content/uploads/2016/09/preservativo-fluo-thumbnail-1.jpg);
+   background-image: url(htdgetsvirali.com/wp-content/uploads/2016/09/preservativo-fluo-thumbnail-1.jpg);
 }
 .card6{
-   background-image: url(http://www.festabimbianimazione.it/media/k2/galleries/136/Colori%20Fluo%20festa%20Arezzo%207.JPG);
+   background-image: url(ht.festabimbianimazione.it/media/k2/galleries/136/Colori%20Fluo%20festa%20Arezzo%207.JPG);
 }
 
 .line{
@@ -506,7 +506,7 @@ h3{
   margin-left: 50%;
   margin-top: 5%;
   color: aliceblue;
- 
+  font-family: horse-font;
   position: relative;
 }
 
