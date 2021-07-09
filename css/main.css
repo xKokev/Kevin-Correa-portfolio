@@ -354,11 +354,20 @@ h3{
   
 }
 
+.title-portfolio{
+  display: flex;
+  justify-content: center;
+  color: rgb(253, 228, 0);
+}
 .title{
-  width:78%;
+  color: rgb(255, 255, 255);
+  font-family: horse-font;
   margin:auto;
   padding-left:0px;
   padding-bottom:0px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
 }
 
 .cards{
@@ -386,8 +395,9 @@ h3{
 }
 
 .card:hover{
-  transform: scale(1.05);
+
   box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+  transform: rotate(4deg) scale(1.1);
 }
 
 @media screen and (max-width: 1200px){
