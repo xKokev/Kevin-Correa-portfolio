@@ -392,6 +392,7 @@ h3{
   -webkit-transition:0.5s;
   cursor:pointer;
     flex: 1 1 auto;
+    text-decoration: none
 }
 
 .card:hover{
