@@ -3,14 +3,11 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
-
 }
-
 
 .parralax{
     background: #000715  no-repeat 50% 50%;
     background-size: cover;
-    
 }
 #seccion1{ background-image: url('../img/1gradient.svg');
 width: 100%;
@@ -90,23 +87,12 @@ height: 75%;
   float: right;
 }
 
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
-}
+
 
 .iconos{
   max-width: 24px;
   min-width: 24px;
 }
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300|Oswald);
 .wordCarousel {
   font-size: 30px;
   font-weight: 100;
@@ -588,3 +574,93 @@ cursor: pointer;
 
 }
 
+/*BOTON-A*/
+
+html{
+  scroll-behavior:smooth;}
+/* ///////////////////////////////////////////////////////////////////////////Funcion */
+.palanca{
+  transform: translate(-100%,0);
+  opacity: 0;
+}
+
+.hamburger-box:hover, .hamburger-inner:hover, .botonPalancaContainer:hover{
+  border: 0;
+}
+#botonPalancaContainer button:hover{
+  outline: none;
+  border: 0;
+}
+/* ///////////////////////////////////////////////////////////////////////////Menu */
+.menuPalanca{
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  align-items: center;
+  height: 100vh;
+  background-color: #00CAA0;
+  top: 0; 
+  transition: transform 0.5s ease, opacity 0.3s ease;
+  opacity: 1;
+  z-index: 998;
+  overflow-y: hidden ;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-top: 5%;
+  padding-bottom: 30%;
+  height: 80vh; 
+  overflow-y: auto;
+}
+nav ul li{
+  display: flex;
+  list-style: none;
+  font-size:30px;
+  color: rgb(243, 28, 82);
+  border: 0;
+  text-align: center;
+}
+nav ul li a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(3, 14, 13);
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+  font-size: 250%;
+  font-family: horse-font;
+}
+nav ul li a:hover{
+  background-color: rgba(253, 41, 41, 0.918);
+  color: #fff;
+  font-size: 300%;
+  font-family: horse-font;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////Hamburger Menu */
+#botonPalancaContainer{
+  position: fixed;
+  z-index: 999;
+  bottom: 10px;
+  right:10px;
+  width: 67px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(253, 41, 41, 0.918);
+  display: flex;
+}
+
+#botonPalancaContainer .hamburger{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 55px;
+}
+
+/*BOTON-Z*/
