@@ -12,7 +12,6 @@ html, body{
 #seccion1{ background-image: url('../img/1gradient.svg');
 width: 100%;
 height: 75%;
-
 }
 
 #seccion2{
@@ -475,7 +474,7 @@ h3{
 }
 
 .portfolio-div{
-  margin-top: 12%;
+  margin-top: 20%;
 }
 /*ABOUT*/
 .img-kevin{
@@ -489,12 +488,12 @@ h3{
 ;
 }
 .texto-about{
-  
   margin-left: 50%;
   margin-top: 5%;
   color: aliceblue;
   font-family: horse-font;
   position: relative;
+  font-size: 120%;
 }
 
 /*FORM*/
