@@ -490,7 +490,7 @@ h3{
 .img-kevin{
   max-width: 45%;
   max-height: 45%;
-  margin-left: 20%;
+  margin-left: 10%;
   position: absolute;
 }
 .about-div{
@@ -691,6 +691,12 @@ nav ul li a:hover{
 
 
 /*RESPONSIVE*/
+@media screen and (min-width: 1024px){
+  
+  #botonPalancaContainer { display: none; 
+  }
+}
+
 @media screen and (max-width: 1024px){
   .card{
   width:30%;
@@ -698,6 +704,113 @@ nav ul li a:hover{
   }
   .header-right { display: none; 
   }
+
+
+  html{
+    overflow-x: hidden !important;
+  }
+
+  
+  .header-name { 
+    font-size: 300%;
+    right: 100%;
+    bottom: 150%;
+  } 
+
+  .header-icono{
+    width: 40px;
+    height: 40px;
+  } 
+
+  .wordCarousel {
+    font-size: 65px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  .wordCarousel div {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 65px;
+    padding-top: 10px;
+    padding-right: 0%;
+    margin-top: -10px;
+  }
+
+  .animation{
+    max-width: 0.3vw;
+    max-height: 0.3vh;
+    bottom: 120%;
+    right: 70%;
+    position: absolute;}
+  
+    #seccion2{
+      background-color: #00CAA0;
+      width: 100%;
+      height: 80%;
+      position: relative;
+}
+.portfolio-div{
+  margin-top: 35%;
+}
+.about-div{
+  width: 100%;
+  margin: 5%;
+} 
+
+
+.img-kevin{
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: 13%;
+  position: absolute;
+}
+
+.title-about{
+  font-size: 3rem;
+  margin-left: 0%;
+  margin-top: 5%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+}
+
+.texto-about{
+  margin-left: 5%;
+  margin-top: 90%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+  font-size: 190%;
+}
+#seccion4{
+  background-image: url('../img/2fondo.svg');
+  width: 100%;
+  height: 50%;
+}
+.contact-form{
+  margin-top: 0%;
+  margin-right: 13%;
+}
+
+.contact-form legend {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'horse-font';
+  color: rgb(255, 255, 255);
+}
+
+nav ul li{
+  display: flex;
+  list-style: none;
+  font-size:70px;
+  color: rgb(243, 28, 82);
+  border: 0;
+  text-align: center;
+}
 }
 
 @media screen and (max-width: 768px){
@@ -706,6 +819,113 @@ nav ul li a:hover{
   margin:2.5%;
   }
   .header-right { display: none; }
+
+
+  html{
+    overflow-x: hidden !important;
+  }
+
+  
+  .header-name { 
+    font-size: 250%;
+    right: 100%;
+    bottom: 125%;
+  } 
+
+  .header-icono{
+    width: 35px;
+    height: 35px;
+  } 
+
+  .wordCarousel {
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  .wordCarousel div {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 65px;
+    padding-top: 10px;
+    padding-right: 0%;
+    margin-top: -10px;
+  }
+
+  .animation{
+    max-width: 0.3vw;
+    max-height: 0.3vh;
+    bottom: 120%;
+    right: 70%;
+    position: absolute;}
+  
+    #seccion2{
+      background-color: #00CAA0;
+      width: 100%;
+      height: 120%;
+      position: relative;
+}
+.portfolio-div{
+  margin-top: 35%;
+}
+.about-div{
+  width: 100%;
+  margin: 5%;
+} 
+
+
+.img-kevin{
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: 4%;
+  position: absolute;
+}
+
+.title-about{
+  font-size: 3rem;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+}
+
+.texto-about{
+  margin-left: 5%;
+  margin-top: 115%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+  font-size: 150%;
+}
+#seccion4{
+  background-image: url('../img/2fondo.svg');
+  width: 100%;
+  height: 75%;
+}
+.contact-form{
+  margin-top: 20%;
+  margin-right: 13%;
+}
+
+.contact-form legend {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'horse-font';
+  color: rgb(255, 255, 255);
+}
+
+nav ul li{
+  display: flex;
+  list-style: none;
+  font-size:50px;
+  color: rgb(243, 28, 82);
+  border: 0;
+  text-align: center;
+}
 }
 
 @media screen and (max-width: 480px){
@@ -752,7 +972,7 @@ nav ul li a:hover{
   .animation{
     max-width: 0.3vw;
     max-height: 0.3vh;
-    bottom: 119%;
+    bottom: 118%;
     right: 90%;
     position: absolute;}
   
@@ -798,7 +1018,7 @@ nav ul li a:hover{
 #seccion4{
   background-image: url('../img/2fondo.svg');
   width: 100%;
-  height: 150%;
+  height: 130%;
 }
 .contact-form{
   margin-top: 80%;
@@ -810,6 +1030,15 @@ nav ul li a:hover{
   text-align: center;
   font-family: 'horse-font';
   color: rgb(255, 255, 255);
+}
+
+nav ul li{
+  display: flex;
+  list-style: none;
+  font-size:30px;
+  color: rgb(243, 28, 82);
+  border: 0;
+  text-align: center;
 }
 }
 
@@ -875,7 +1104,7 @@ nav ul li a:hover{
 #seccion3 {
   background-image: url('../img/1fondo.svg');
   width: 100%;
-  height: 200%;
+  height: 120%;
 }
 .about-div{
   width: 100%;
@@ -910,10 +1139,10 @@ nav ul li a:hover{
 #seccion4{
   background-image: url('../img/2fondo.svg');
   width: 100%;
-  height: 130%;
+  height: 170%;
 }
 .contact-form{
-  margin-top: 100%;
+  margin-bottom: 10%;
   margin-right: 13%;
 }
 
@@ -922,6 +1151,15 @@ nav ul li a:hover{
   text-align: center;
   font-family: 'horse-font';
   color: rgb(255, 255, 255);
+}
+
+nav ul li{
+  display: flex;
+  list-style: none;
+  font-size:30px;
+  color: rgb(243, 28, 82);
+  border: 0;
+  text-align: center;
 }
 }
 
@@ -1010,5 +1248,13 @@ nav ul li a:hover{
   text-align: center;
   font-family: 'horse-font';
   color: rgb(255, 255, 255);
+}
+nav ul li{
+  display: flex;
+  list-style: none;
+  font-size:15px;
+  color: rgb(243, 28, 82);
+  border: 0;
+  text-align: center;
 }
 }
