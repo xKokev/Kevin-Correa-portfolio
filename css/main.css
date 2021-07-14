@@ -17,20 +17,19 @@ height: 75%;
 #seccion2{
     background-color: #00CAA0;
     width: 100%;
-    height: 100%;
+    height: 140%;
     position: relative;
 }
  #seccion3 {
         background-image: url('../img/1fondo.svg');
         width: 100%;
-        height: 150%;
-        
+        height: 100%;
   }
 
 #seccion4{
     background-image: url('../img/2fondo.svg');
     width: 100%;
-    height: 180%;
+    height: 100%;
   }
 
   .overx{
@@ -49,14 +48,42 @@ height: 75%;
     right: 20%;
     bottom: 93%;
     position: absolute;}
+
   @font-face {
     font-family: 'horse-font';
     src: url('../font/horse.ttf');
   }
   .horse-font{
-    font-family: 'horse-font';
+    font-family: 'horse-font'
   }
 
+  .header-seccion{
+    font-size: 150%;
+    font-family: horse-font;
+  }
+  .header-name{
+    font-size: 200%;
+    font-family: horse-font;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+
+  .header-icono{
+    font-size: 200%;
+    font-family: horse-font;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 25px;
+    margin-top: 10px;
+  }
   /* Style the header with a grey background and some padding */
 
 
@@ -67,18 +94,19 @@ height: 75%;
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 18px;
   line-height: 25px;
   border-radius: 8px;
 }
-
 
 
 /* Change the background color on mouse-over */
 .hover-header:hover {
   background-color: rgb(233, 24, 59);
   color: rgb(253, 247, 247);
-  padding-top: 15px;
+  padding-top: 20px;
+  margin-top: 15px;
+  transform:  scale(1.1);
+  font-size: 160%;
 }
 
 /* Float the link section to the right */
@@ -87,18 +115,17 @@ height: 75%;
 }
 
 
-
 .iconos{
-  max-width: 24px;
-  min-width: 24px;
+  max-width: 35px;
+  min-width: 35px;
+  margin-top: -5px;
 }
 .wordCarousel {
   font-size: 30px;
   font-weight: 100;
-  color: rgb(233, 24, 59);
+  color: rgb(0, 0, 0);
   padding-left: 10%;
   padding-top: 20%;
-
 }
 .wordCarousel div {
   overflow: hidden;
@@ -110,7 +137,7 @@ height: 75%;
   margin-top: -10px;
 }
 .wordCarousel div li {
-  color: rgb(233, 24, 59);
+  color: rgb(0, 0, 0);
   font-weight: 70%;
   padding: 0 10px;
   height: 45px;
@@ -376,8 +403,8 @@ h3{
   transition: 1s;
   -webkit-transition:0.5s;
   cursor:pointer;
-    flex: 1 1 auto;
-    text-decoration: none
+  flex: 1 1 auto;
+  text-decoration: none
 }
 
 .card:hover{
@@ -386,26 +413,7 @@ h3{
   transform: rotate(4deg) scale(1.1);
 }
 
-@media screen and (max-width: 1200px){
-  .card{
-  width:30%;
-  margin:1.6%;
-  }
-}
 
-@media screen and (max-width: 800px){
-  .card{
-  width:45%;
-  margin:2.5%;
-  }
-}
-
-@media screen and (max-width: 500px){
-  .card{
-  width:98%;
-  margin:2%;
-  }
-}
 
 .card_img{
   width:100%;
@@ -421,15 +429,17 @@ h3{
   justify-content: center;
   align-items: center;
 }
+
+/*
 .card1{
   background-image: url(htypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvdIMVlW3Mn8TmkGmtulq2taIDoUIJvr_lt87EWhgdCY5diNhH0Q);
   
 }
 .card2{
-   background-image: url(htmbianimazione.it/media/k2/galleries/136/Colori%20Fluo%20festa%20Arezzo%207.JPG);
+   background-image: url(htmbianimazione.it//k2/galleries/136/Colori%20Fluo%20festa%20Arezzo%207.JPG);
 }
 .card3{
-   background-image: url(htromatoday.it/~media/horizontal-hi/26065597680895/fluo-party-2-2.jpg);
+   background-image: url(htromatoday.it/~/horizontal-hi/26065597680895/fluo-party-2-2.jpg);
 }
 .card4{
    background-image: url(htncrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSiLXTcanAKRZhMo-5Ga9pzsXIgjWcSbCdz3xFhMVI1PDZSRgQgUQ);
@@ -438,9 +448,9 @@ h3{
    background-image: url(htdgetsvirali.com/wp-content/uploads/2016/09/preservativo-fluo-thumbnail-1.jpg);
 }
 .card6{
-   background-image: url(ht.festabimbianimazione.it/media/k2/galleries/136/Colori%20Fluo%20festa%20Arezzo%207.JPG);
+   background-image: url(ht.festabimbianimazione.it//k2/galleries/136/Colori%20Fluo%20festa%20Arezzo%207.JPG);
 }
-
+*/
 .line{
   height:2px;
   width:84%;
@@ -489,7 +499,7 @@ h3{
 
 .title-about{
   font-size: 3rem;
-  margin-left: 50%;
+  margin-left: 0.5vw;
   margin-top: 5%;
   color: aliceblue;
   font-family: horse-font;
@@ -502,7 +512,7 @@ h3{
   color: aliceblue;
   font-family: horse-font;
   position: relative;
-  font-size: 120%;
+  font-size: 220%;
 }
 
 /*FORM*/
@@ -678,3 +688,327 @@ nav ul li a:hover{
 }
 
 /*BOTON-Z*/
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1024px){
+  .card{
+  width:30%;
+  margin:1.6%;
+  }
+  .header-right { display: none; 
+  }
+}
+
+@media screen and (max-width: 768px){
+  .card{
+  width:45%;
+  margin:2.5%;
+  }
+  .header-right { display: none; }
+}
+
+@media screen and (max-width: 480px){
+  .card{
+  width:98%;
+  margin:2%;
+  }
+  .header-right { display: none;  
+  }
+  html{
+    overflow-x: hidden !important;
+  }
+
+  
+  .header-name { 
+    font-size: 140%;
+    right: 100%;
+    bottom: 125%;
+  } 
+
+  .header-icono{
+    width: 30px;
+    height: 30px;
+  } 
+
+  .wordCarousel {
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  .wordCarousel div {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 65px;
+    padding-top: 10px;
+    padding-right: 0%;
+    margin-top: -10px;
+  }
+
+  .animation{
+    max-width: 0.3vw;
+    max-height: 0.3vh;
+    bottom: 119%;
+    right: 90%;
+    position: absolute;}
+  
+    #seccion2{
+      background-color: #00CAA0;
+      width: 100%;
+      height: 170%;
+      position: relative;
+}
+.portfolio-div{
+  margin-top: 45%;
+}
+.about-div{
+  width: 100%;
+  margin: 2%;
+} 
+
+
+.img-kevin{
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: 4%;
+  position: absolute;
+}
+
+.title-about{
+  font-size: 3rem;
+  margin-left: 10%;
+  margin-top: 25%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+}
+
+.texto-about{
+  margin-left: 5%;
+  margin-top: 130%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+  font-size: 130%;
+}
+#seccion4{
+  background-image: url('../img/2fondo.svg');
+  width: 100%;
+  height: 150%;
+}
+.contact-form{
+  margin-top: 80%;
+  margin-right: 13%;
+}
+
+.contact-form legend {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'horse-font';
+  color: rgb(255, 255, 255);
+}
+}
+
+@media screen and (max-width: 320px ) {
+  html{
+    overflow-x: hidden !important;
+  }
+
+  .card{
+    width: 110%;
+    margin: 2%;
+}
+  
+  .header-right { display: none; }
+  
+  
+  .header-name { 
+    font-size: 140%;
+    right: 100%;
+    bottom: 125%;
+  } 
+
+  .header-icono{
+    width: 30px;
+    height: 30px;
+  } 
+
+  .wordCarousel {
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+
+  .wordCarousel div {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 65px;
+    padding-top: 10px;
+    padding-right: 0%;
+    margin-top: -10px;
+  }
+
+  .animation{
+    max-width: 0.3vw;
+    max-height: 0.3vh;
+    bottom: 110%;
+    right: 100%;
+    position: absolute;}
+  
+    #seccion2{
+      background-color: #00CAA0;
+      width: 100%;
+      height: 300%;
+      position: relative;
+}
+.portfolio-div{
+  margin-top: 45%;
+}
+
+#seccion3 {
+  background-image: url('../img/1fondo.svg');
+  width: 100%;
+  height: 200%;
+}
+.about-div{
+  width: 100%;
+  margin: 2%;
+} 
+
+
+.img-kevin{
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: 4%;
+  position: absolute;
+}
+
+.title-about{
+  font-size: 3rem;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+}
+
+.texto-about{
+  margin-left: 5%;
+  margin-top: 130%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+  font-size: 130%;
+}
+#seccion4{
+  background-image: url('../img/2fondo.svg');
+  width: 100%;
+  height: 130%;
+}
+.contact-form{
+  margin-top: 100%;
+  margin-right: 13%;
+}
+
+.contact-form legend {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'horse-font';
+  color: rgb(255, 255, 255);
+}
+}
+
+@media screen and (max-width: 272px ) {
+  html{
+    overflow-x: hidden !important;
+  }
+
+.card{
+    width: 100%;
+    margin: 2%;
+}
+
+.header-right { display: none; }
+
+.header-name { 
+  font-size: 155%;
+  right: 100%;
+  bottom: 125%;
+}
+
+.header-icono{display: none}
+
+.wordCarousel {display: none;}
+
+.animation{
+  max-width: 0.3vw;
+  max-height: 0.3vh;
+  bottom: 122%;
+  right: 120%;
+  position: absolute;}
+
+    
+#seccion2{
+      background-color: #00CAA0;
+      width: 100%;
+      height: 200%;
+      position: relative;
+}
+
+
+.portfolio-div{
+  margin-top: 45%;
+}
+.about-div{
+  width: 100%;
+  margin: 2%;
+}
+
+.img-kevin{
+  max-width: 90%;
+  max-height: 90%;
+  margin-left: 4%;
+  position: absolute;
+}
+
+.title-about{
+  font-size: 3rem;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+}
+
+.texto-about{
+  margin-left: 5%;
+  margin-top: 130%;
+  color: aliceblue;
+  font-family: horse-font;
+  position: relative;
+  font-size: 130%;
+}
+#seccion4{
+  background-image: url('../img/2fondo.svg');
+  width: 100%;
+  height: 120%;
+}
+.contact-form{
+  margin-top: 50%;
+  margin-right: 13%;
+}
+
+.contact-form legend {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'horse-font';
+  color: rgb(255, 255, 255);
+}
+}
