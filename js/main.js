@@ -19,6 +19,22 @@ document.addEventListener('click', (e) => {
   }
 });
 
+// Click form
+document.addEventListener('click', (e) => {
+  if (e.target.matches('.contact-form')) {
+    function formmovil() {
+      const elPos = input.getBoundingClientRect().top;
+      const scrollPos = screen.scrollTop;
+
+      if (elPos + input.offsetHeight > screen.offsetHeight / 2) {
+        screen.scrollTo({
+          top: elPos - scrollPos - 20,
+          behavior: 'smooth',
+        });
+      }
+    }
+  }
+});
 // Formulario
 function contactFormValidations() {
   const $form = document.querySelector('.contact-form'),
