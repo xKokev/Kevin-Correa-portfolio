@@ -780,6 +780,26 @@ nav ul li a:hover{
       height: 80%;
       position: relative;
 }
+
+#seccion3 {
+  background-image: url('../img/1fondo.svg');
+  width: 100%;
+  height: 130%;
+}
+
+#seccion4{
+  background-image: url('../img/2fondo.svg');
+  width: 100%;
+  height: 180%;
+}
+
+#seccion5{
+background-color: #C62368;
+width: 100%;
+ height: 30%;
+}
+
+
 .portfolio-div{
   margin-top: 35%;
 }
@@ -885,14 +905,14 @@ nav ul li{
   .animation{
     max-width: 0.3vw;
     max-height: 0.3vh;
-    bottom: 120%;
+    bottom: 117%;
     right: 70%;
     position: absolute;}
   
     #seccion2{
       background-color: #00CAA0;
       width: 100%;
-      height: 120%;
+      height: 130%;
       position: relative;
 }
 .portfolio-div{
@@ -928,11 +948,24 @@ nav ul li{
   position: relative;
   font-size: 150%;
 }
+
+#seccion3 {
+  background-image: url('../img/1fondo.svg');
+  width: 100%;
+  height: 120%;
+}
 #seccion4{
   background-image: url('../img/2fondo.svg');
   width: 100%;
-  height: 75%;
+  height: 150%;
 }
+
+
+#seccion5{
+  background-color: #C62368;
+  width: 100%;
+  height: 30%;
+  }
 .contact-form{
   margin-top: 20%;
   margin-right: 13%;
@@ -1054,11 +1087,10 @@ nav ul li{
   height: 180%;
 }
 
-
 #seccion5{
 background-color: #C62368;
 width: 100%;
-height: 30%;
+ height: 30%;
 }
 .contact-form{
   margin-top: 80%;
