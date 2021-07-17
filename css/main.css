@@ -34,6 +34,12 @@ height: 75%;
     height: 100%;
   }
 
+  #seccion5{
+
+    background-color: #C62368;
+  width: 100%;
+  height: 100%;
+  }
   .overx{
     overflow-x: hidden !important;
  }
@@ -708,6 +714,14 @@ nav ul li a:hover{
   
   #botonPalancaContainer { display: none; 
   }
+
+
+  #seccion5{
+
+    background-color: #C62368;
+  width: 100%;
+  height: 1%;
+  }
 }
 
 @media screen and (max-width: 1024px){
@@ -1038,6 +1052,13 @@ nav ul li{
   background-image: url('../img/2fondo.svg');
   width: 100%;
   height: 200%;
+}
+
+
+#seccion5{
+background-color: #C62368;
+width: 100%;
+height: 20%;
 }
 .contact-form{
   margin-top: 80%;
